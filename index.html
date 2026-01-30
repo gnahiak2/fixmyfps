@@ -1,0 +1,50 @@
+//index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>FixMyFPS — Real Fixes for Low-End PCs</title>
+    <meta name="description"
+          content="Fix FPS drops, stutters, and lag on low-end PCs. Windows tweaks, Intel iGPU gaming, and honest settings." />
+
+    <meta name="theme-color" content="#0b0419" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header>
+        <h1>FixMyFPS</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="windows.html">Windows</a>
+            <a href="intel.html">Intel iGPU</a>
+            <a href="other.html">Other</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Welcome</h2>
+            <p>
+                Real fixes for low-end PCs.
+                No scams. No placebo tweaks. Just real answers.
+            </p>
+        </section>
+
+        <section id="tool">
+            <h2>RAM Reality Check</h2>
+            <input id="ram" type="number" min="2" step="1" value="8" />
+            <button onclick="checkRam()">Check</button>
+            <p id="out"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Kaihang</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
