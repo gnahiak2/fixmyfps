@@ -35,15 +35,20 @@ Fast, lightweight, SEO-first.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
+```
 /
 ├─ index.html
 ├─ styles.css
 ├─ app.js
 ├─ posts/
-│ └─ fps-drops.html
+│  ├─ fps-drops.html
+│  ├─ roblox-low-end.html
+│  └─ intel-igpu-basics.html
 └─ LICENSE
+```
+
 
 
 ---
